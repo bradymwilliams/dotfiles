@@ -1,10 +1,17 @@
 plugins=(git)
 
 export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(git zsh-syntax-highlighting zsh-completions z history)
+
+# Path Alterations
+PATH="/usr/local/bin:$PATH"
+
+PATH="$VOLTA_HOME/bin:$PATH"
+## node_modules 😆 this is *way* faster than using "npm prefix" and it works fine.
+PATH="$PATH:./node_modules/.bin:../node_modules/.bin:../../node_modules/.bin:../../../node_modules/.bin:../../../../node_modules/.bin:../../../../../node_modules/.bin:../../../../../../node_modules/.bin:../../../../../../../node_modules/.bin"
+export PATH
 
 alias git="hub"
 
