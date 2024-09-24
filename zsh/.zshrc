@@ -6,6 +6,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(git zsh-syntax-highlighting zsh-completions z history)
 
+alias git="hub"
+
 source <(fzf --zsh)
 eval "$(starship init zsh)"
 
