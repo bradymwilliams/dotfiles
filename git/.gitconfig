@@ -23,7 +23,7 @@ default = current
 autoSetupRemote = true
 
 [core]
-excludesfile = ~/.gitignore-global
+excludesfile = ~/.gitignore_global
 
 [color]
 ui = true
