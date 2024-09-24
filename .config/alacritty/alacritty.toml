@@ -1,0 +1,45 @@
+import = [
+  # theme
+  "~/.config/alacritty/aura.toml"
+]
+
+# Font configuration
+[font]
+size = 12
+
+[window] 
+padding = { x = 5, y = 5 }
+decorations = "Buttonless"
+
+[window.dimensions]
+columns = 130
+lines = 45
+
+[cursor.style]
+shape = 'Beam'
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+style = "Bold Italic"
+
+
+[selection]
+save_to_clipboard = true
+# Keybindings
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
