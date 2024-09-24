@@ -20,4 +20,4 @@ brew install git hub tree bat ffmpeg starship volta lazygit flyctl fzf
 echo "installing apps with brew --cask"
 brew install --cask \
   raycast alacritty google-chrome visual-studio-code 1password cleanmymac \
-  logi-options+ brave-browser quicklook-json font-hack-nerd-font spotify discord zoom rectangle
+  logi-options+ brave-browser quicklook-json font-hack-nerd-font spotify discord zoom rectangle beekeeper-studio

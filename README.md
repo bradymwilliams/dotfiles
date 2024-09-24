@@ -14,8 +14,8 @@
 ## Installation
 
 ```sh
-git clone https://github.com/bradymholt/public-dotfiles.git
-cd public-dotfiles
+git clone https://github.com/bradymwilliams/dotfiles.git
+cd dotfiles
 ./install.sh
 ```
 
